@@ -1,0 +1,9 @@
+{
+	"Println": {
+		"prefix": "sout",
+		"body": [
+			"System.out.println(\"$1\");"
+		],
+		"description": "Create System.out.println"
+	}
+}
