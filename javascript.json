@@ -1,0 +1,31 @@
+{
+    "Arrow function": { 
+		"prefix": "af", 
+		"body": [ "() => {\n\t$1\n}" ], 
+		"description": "Create arrow function"
+	},
+
+	"Object": { 
+		"prefix": "obj", 
+		"body": [ "{\n\t$1: $2,$3\n}" ], 
+		"description": "Create object"
+	},
+
+	"Object Line": { 
+		"prefix": "line", 
+		"body": [ "$1: $2," ], 
+		"description": "Create one object line"
+	},
+
+	"Constant": { 
+		"prefix": "const", 
+		"body": [ "const $1 = $2;" ], 
+		"description": "Create constant"
+	},
+
+	"Export Default": { 
+		"prefix": "expdef", 
+		"body": [ "export default $1;" ], 
+		"description": "Create export default"
+	}
+}
